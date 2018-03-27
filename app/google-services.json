@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "639087897627",
+    "firebase_url": "https://fir-c8fea.firebaseio.com",
+    "project_id": "fir-c8fea",
+    "storage_bucket": "fir-c8fea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639087897627:android:241bc7ac8b498eb7",
+        "android_client_info": {
+          "package_name": "com.fikiki.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639087897627-3321j719gnlvvljjref2c3m3428090t1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ePtEnjMnCtm18CRozh9DXVDaG0mXfTo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639087897627:android:3bc6826a6759427a",
+        "android_client_info": {
+          "package_name": "com.fikikitk.firefire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639087897627-3321j719gnlvvljjref2c3m3428090t1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ePtEnjMnCtm18CRozh9DXVDaG0mXfTo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
