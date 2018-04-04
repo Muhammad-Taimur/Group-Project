@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.newfirebase.AboutActivity">
+
+
+    <ImageView
+        android:id="@+id/imgbg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bcc"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/carter_one"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="About"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="26sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.493" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/carter_one"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="The App dublin Bikes shows the Real time data and location of all cycle stations in Dublin city center. This app has 11 pages in Complete. The first page is for Login, The second page is for Registration if user do not have an account, The third page is for reset password if user forget his/her password, The 4 page is the user Home page includes 6 buttons, The 5 page show the list View of all dublin bikes stands button, The 6 page shows the marker in map,The 7 pages shows asked user to enter detail for the trip, The eight page is showing the retrieve data from firebase, The 9 page is showing the favourite station, The 10 page shows the detail of the each station when user click in the list view, The 10 and the last Page is About page"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

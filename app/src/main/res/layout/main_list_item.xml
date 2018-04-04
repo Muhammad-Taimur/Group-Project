@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+
+
+    android:orientation="horizontal">
+
+    <!--This code is taken from Stack Over Flow to set the cardview backgroud as transparent so user can see the Main layout Image-->
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+
+
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp"
+        >
+
+
+        <LinearLayout
+
+
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/common_google_signin_btn_text_light_disabled"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+
+            <!--<TextView-->
+
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:text="Address"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"-->
+            <!--android:textSize="24sp" />-->
+
+            <TextView
+
+
+                android:id="@+id/textViewHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:text="Heading"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:fontFamily="@font/carter_one"
+                />
+
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Status"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="24sp"
+                android:fontFamily="@font/carter_one"/>
+
+            <TextView
+
+                android:id="@+id/textViewStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:text="Status"
+                android:textColor="@android:color/black"
+
+
+                android:textSize="24sp"
+                android:fontFamily="@font/carter_one"/>
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Place of bikes in Stand"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="24sp"
+                android:fontFamily="@font/carter_one"
+
+                />
+
+
+            <TextView
+
+                android:id="@+id/textViewDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:text="Description"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:fontFamily="@font/carter_one" />
+
+            <!--<TextView-->
+
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Latitude"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"-->
+
+            <!--/>-->
+
+            <!--<TextView-->
+
+            <!--android:id="@+id/textViewLat"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity=""-->
+            <!--android:text="Latitude"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="24sp"-->
+            <!--android:fontFamily="@font/carter_one" />-->
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bike Stands Available"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="24sp"
+                android:fontFamily="@font/carter_one"
+
+                />
+
+            <TextView
+
+                android:id="@+id/textView_bike_stands"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:text="bike stands"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:fontFamily="@font/carter_one"/>
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Available Bikes"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="24sp"
+                android:fontFamily="@font/carter_one"
+
+                />
+
+            <TextView
+
+                android:id="@+id/textView_available_bikes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:text="Available Bikes"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:fontFamily="@font/carter_one"/>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>
